@@ -1,0 +1,23 @@
+.Products{
+    width: 100%;
+    display: grid;
+    gap: 30px;
+    margin-top: 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    img{
+        width: 100%;
+    }
+    p{
+        font-weight: 800;
+    }
+ 
+}
+button{
+    background-color: pink;
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
